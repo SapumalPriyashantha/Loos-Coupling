@@ -4,16 +4,10 @@ package main;
  * @author : Sanu Vithanage
  * @since : 0.1.0
  **/
+public class Girl implements SuperGirl{
 
-public class Girl implements SuperGirl {
     @Override
-    public void chats() {
-        System.out.println("Heloooo DD");
+    public void chat(){
+        System.out.println("Hello there how are you..?");
     }
-
-
-
-   /* public void chats() {
-        System.out.println("Heloooo DD");
-    }*/
 }

@@ -5,5 +5,5 @@ package main;
  * @since : 0.1.0
  **/
 public interface SuperGirl {
-    public void chats();
+    public void chat();
 }
