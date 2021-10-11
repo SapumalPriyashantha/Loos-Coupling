@@ -8,13 +8,16 @@ package main;
 public class Boy {
     public void chattingWithGirl() {
         //Tight Coupling
-        Girl girl = new Girl();
+       /* Girl girl = new Girl();
         while (true) {
             girl.chat();//break down
+        }*/
+
+        //Loos Coupling
+        SuperGirl girl = new Girl();
+        while (true) {
+            girl.chats();
         }
-
-
-
 
 
     }

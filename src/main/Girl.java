@@ -5,9 +5,15 @@ package main;
  * @since : 0.1.0
  **/
 
-public class Girl {
-
+public class Girl implements SuperGirl {
+    @Override
     public void chats() {
         System.out.println("Heloooo DD");
     }
+
+
+
+   /* public void chats() {
+        System.out.println("Heloooo DD");
+    }*/
 }
